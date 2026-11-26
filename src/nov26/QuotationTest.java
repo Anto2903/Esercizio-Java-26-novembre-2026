@@ -4,7 +4,9 @@ public class QuotationTest {
 
 	public static void main(String[] args) {		
 		Quotation miaQuotation = new Quotation();
-		miaQuotation.display();
+		
+		miaQuotation.Frase = "So programmare in Java!";
+		miaQuotation.mostra();
 	}
 
 }

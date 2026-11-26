@@ -1,9 +1,9 @@
 package nov26;
 
 public class Quotation {
-	public String Frase = "So programmare in Java!";
+	public String Frase;
 	
-	public void display() {
+	public void mostra() {
 		System.out.println(Frase);
 	}
 }
